@@ -12,9 +12,15 @@ function set_git() {
   git config --global core.excludesfile ${project_home}/git/.gitignore_global
 }
 
+function set_zsh() {
+  rm -f ~/.zshrc
+  ln -s ${project_home}/zsh/.zshrc ~/.zshrc
+}
+
 function setup() {
   set_vim
   set_git
+  set_zsh
 }
 
 setup
