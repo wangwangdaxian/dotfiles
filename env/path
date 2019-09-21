@@ -1,5 +1,8 @@
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
 # Hadoop
-export HADOOP_HOME=/usr/local/hadoop-2.7.7/
+export HADOOP_HOME=/usr/local/hadoop-2.7.7
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+# Hive
+export HIVE_HOME=/usr/local/hive-2.3.6
+export PATH=$PATH:$HIVE_HOME/bin
