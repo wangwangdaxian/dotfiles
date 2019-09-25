@@ -6,3 +6,6 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 # Hive
 export HIVE_HOME=/usr/local/hive-2.3.6
 export PATH=$PATH:$HIVE_HOME/bin
+# Hbase
+export HBASE_HOME=/usr/local/hbase-2.1.6/
+export PATH=$PATH:$HBASE_HOME/bin
