@@ -1,5 +1,10 @@
+# Homebrew
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+# Java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+# Scala
+export SCALA_HOME=/usr/local/opt/scala@2.12
+export PATH=$PATH:$SCALA_HOME/bin
 # Apache
 export APACHE_HOME=~/apache
 # Hadoop
