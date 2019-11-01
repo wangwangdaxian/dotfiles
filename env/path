@@ -23,7 +23,7 @@ export PATH=$PATH:$ZOOKEEPER_HOME/bin
 export HBASE_HOME=/usr/local/hbase-2.1.6
 export PATH=$PATH:$HBASE_HOME/bin
 # Flink
-export FLINK_HOME=/usr/local/flink-1.9.0
+export FLINK_HOME=/usr/local/flink-1.9.1
 export PATH=$PATH:$FLINK_HOME/bin
 # Kafka
 export KAFKA_HOME=/usr/local/kafka-2.3.0
