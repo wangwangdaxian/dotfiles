@@ -28,3 +28,6 @@ export PATH=$PATH:$FLINK_HOME/bin
 # Kafka
 export KAFKA_HOME=/usr/local/kafka-2.3.0
 export PATH=$PATH:$KAFKA_HOME/bin
+# Elasticsearch
+export ES_HOME=/usr/local/elasticsearch-7.4.2
+export PATH=$PATH:$ES_HOME/bin
