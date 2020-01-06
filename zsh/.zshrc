@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/shizk/.oh-my-zsh"
+export ZSH="/Users/shizk233/dotfiles/zsh/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -71,8 +71,6 @@ ZSH_THEME="robbyrussell"
 plugins=(
 	git
 	web-search
-	autojump
-    ansible
     docker
     docker-compose
     zsh-autosuggestions
@@ -109,3 +107,6 @@ source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/env/path
 source ~/dotfiles/env/alias
 # sudo route add 10.16.0.0/16 10.0.0.1
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

@@ -5,5 +5,5 @@
 ```
 cd ~
 git clone git@github.com:wangwangdaxian/dotfiles.git
-chmod u+x ~/dotfiles/install.sh && bash ~/dotfiles/install.sh
+chmod u+x ~/dotfiles/setup.sh && bash ~/dotfiles/setup.sh
 ```
