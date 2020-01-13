@@ -1,4 +1,5 @@
-export PATH=$PATH:/usr/local/sbin
+export PATH=/usr/local/sbin:$PATH
+export HOMEBREW_NO_AUTO_UPDATE=1
 # Java
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home
 # Apache
@@ -23,3 +24,7 @@ export PATH=$PATH:$FLINK_HOME/bin
 # Kafka
 export KAFKA_HOME=/usr/local/kafka
 export PATH=$PATH:$KAFKA_HOME/bin
+# Kerberos
+export KERBEROS_HOME=/usr/local/opt/krb5
+export KRB5_CONFIG=/usr/local/opt/krb5/krb5.conf
+export KRB5_KDC_PROFILE=/usr/local/opt/krb5/var/krb5kdc/kdc.conf
